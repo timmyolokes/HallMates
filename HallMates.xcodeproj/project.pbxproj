@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC2257972BF6532B0067654F /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2257962BF6532B0067654F /* LogInViewModel.swift */; };
+		DC64D0B72BFE462D00D79B85 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC64D0B62BFE462D00D79B85 /* Card.swift */; };
+		DCF178AA2BF661AF0025AEC8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DCF178A92BF661AF0025AEC8 /* FirebaseAuth */; };
+		DCF178AC2BF661AF0025AEC8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DCF178AB2BF661AF0025AEC8 /* FirebaseFirestore */; };
+		DCF178AE2BF661AF0025AEC8 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DCF178AD2BF661AF0025AEC8 /* FirebaseFirestoreSwift */; };
+		DCF178B02BF662210025AEC8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCF178AF2BF662210025AEC8 /* GoogleService-Info.plist */; };
+		DCF178B22BF662F50025AEC8 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF178B12BF662F50025AEC8 /* SignUpViewModel.swift */; };
+		DCF178B42BF789BA0025AEC8 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF178B32BF789BA0025AEC8 /* ContentViewModel.swift */; };
+		DCF178BC2BFB85B90025AEC8 /* SymbolPicker in Frameworks */ = {isa = PBXBuildFile; productRef = DCF178BB2BFB85B90025AEC8 /* SymbolPicker */; };
+		DCF178BE2BFB91680025AEC8 /* OrganizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF178BD2BFB91680025AEC8 /* OrganizationView.swift */; };
+		DCF178C02BFB91720025AEC8 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF178BF2BFB91720025AEC8 /* EventView.swift */; };
+		DCF178C22BFB91F30025AEC8 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF178C12BFB91F30025AEC8 /* ProfileViewModel.swift */; };
+		DCF178C42BFB96260025AEC8 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF178C32BFB96260025AEC8 /* ChatView.swift */; };
+		DCF178C62BFB9A580025AEC8 /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF178C52BFB9A580025AEC8 /* MyProfileView.swift */; };
+		DCFA690E2BF50DEC009E8CE4 /* HallMatesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA690D2BF50DEC009E8CE4 /* HallMatesApp.swift */; };
+		DCFA69102BF50DEC009E8CE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA690F2BF50DEC009E8CE4 /* ContentView.swift */; };
+		DCFA69122BF50DED009E8CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCFA69112BF50DED009E8CE4 /* Assets.xcassets */; };
+		DCFA69152BF50DED009E8CE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCFA69142BF50DED009E8CE4 /* Preview Assets.xcassets */; };
+		DCFA69202BF50F55009E8CE4 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA691F2BF50F55009E8CE4 /* MessagesView.swift */; };
+		DCFA69222BF50F5F009E8CE4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA69212BF50F5F009E8CE4 /* ProfileView.swift */; };
+		DCFA69242BF50F6D009E8CE4 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA69232BF50F6D009E8CE4 /* SignUpView.swift */; };
+		DCFA69262BF50F82009E8CE4 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA69252BF50F82009E8CE4 /* LogInView.swift */; };
+		DCFA69282BF50F8F009E8CE4 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA69272BF50F8F009E8CE4 /* GradientView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC2257962BF6532B0067654F /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
+		DC64D0B62BFE462D00D79B85 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		DCF178AF2BF662210025AEC8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DCF178B12BF662F50025AEC8 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		DCF178B32BF789BA0025AEC8 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		DCF178BD2BFB91680025AEC8 /* OrganizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationView.swift; sourceTree = "<group>"; };
+		DCF178BF2BFB91720025AEC8 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		DCF178C12BFB91F30025AEC8 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		DCF178C32BFB96260025AEC8 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		DCF178C52BFB9A580025AEC8 /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
+		DCFA690A2BF50DEC009E8CE4 /* HallMates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HallMates.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFA690D2BF50DEC009E8CE4 /* HallMatesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallMatesApp.swift; sourceTree = "<group>"; };
+		DCFA690F2BF50DEC009E8CE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DCFA69112BF50DED009E8CE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCFA69142BF50DED009E8CE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCFA691F2BF50F55009E8CE4 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		DCFA69212BF50F5F009E8CE4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		DCFA69232BF50F6D009E8CE4 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		DCFA69252BF50F82009E8CE4 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		DCFA69272BF50F8F009E8CE4 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCFA69072BF50DEC009E8CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF178BC2BFB85B90025AEC8 /* SymbolPicker in Frameworks */,
+				DCF178AA2BF661AF0025AEC8 /* FirebaseAuth in Frameworks */,
+				DCF178AC2BF661AF0025AEC8 /* FirebaseFirestore in Frameworks */,
+				DCF178AE2BF661AF0025AEC8 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCFA69012BF50DEC009E8CE4 = {
+			isa = PBXGroup;
+			children = (
+				DCFA690C2BF50DEC009E8CE4 /* HallMates */,
+				DCFA690B2BF50DEC009E8CE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCFA690B2BF50DEC009E8CE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA690A2BF50DEC009E8CE4 /* HallMates.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCFA690C2BF50DEC009E8CE4 /* HallMates */ = {
+			isa = PBXGroup;
+			children = (
+				DCF178AF2BF662210025AEC8 /* GoogleService-Info.plist */,
+				DCFA690D2BF50DEC009E8CE4 /* HallMatesApp.swift */,
+				DCFA691D2BF50F06009E8CE4 /* Views */,
+				DCFA691E2BF50F0C009E8CE4 /* ViewModels */,
+				DCFA69112BF50DED009E8CE4 /* Assets.xcassets */,
+				DCFA69132BF50DED009E8CE4 /* Preview Content */,
+			);
+			path = HallMates;
+			sourceTree = "<group>";
+		};
+		DCFA69132BF50DED009E8CE4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA69142BF50DED009E8CE4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCFA691D2BF50F06009E8CE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA690F2BF50DEC009E8CE4 /* ContentView.swift */,
+				DC64D0B62BFE462D00D79B85 /* Card.swift */,
+				DCFA691F2BF50F55009E8CE4 /* MessagesView.swift */,
+				DCFA69212BF50F5F009E8CE4 /* ProfileView.swift */,
+				DCF178C52BFB9A580025AEC8 /* MyProfileView.swift */,
+				DCFA69252BF50F82009E8CE4 /* LogInView.swift */,
+				DCFA69232BF50F6D009E8CE4 /* SignUpView.swift */,
+				DCF178BF2BFB91720025AEC8 /* EventView.swift */,
+				DCF178BD2BFB91680025AEC8 /* OrganizationView.swift */,
+				DCF178C32BFB96260025AEC8 /* ChatView.swift */,
+				DCFA69272BF50F8F009E8CE4 /* GradientView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DCFA691E2BF50F0C009E8CE4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DC2257962BF6532B0067654F /* LogInViewModel.swift */,
+				DCF178B12BF662F50025AEC8 /* SignUpViewModel.swift */,
+				DCF178B32BF789BA0025AEC8 /* ContentViewModel.swift */,
+				DCF178C12BFB91F30025AEC8 /* ProfileViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCFA69092BF50DEC009E8CE4 /* HallMates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFA69182BF50DED009E8CE4 /* Build configuration list for PBXNativeTarget "HallMates" */;
+			buildPhases = (
+				DCFA69062BF50DEC009E8CE4 /* Sources */,
+				DCFA69072BF50DEC009E8CE4 /* Frameworks */,
+				DCFA69082BF50DEC009E8CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HallMates;
+			packageProductDependencies = (
+				DCF178A92BF661AF0025AEC8 /* FirebaseAuth */,
+				DCF178AB2BF661AF0025AEC8 /* FirebaseFirestore */,
+				DCF178AD2BF661AF0025AEC8 /* FirebaseFirestoreSwift */,
+				DCF178BB2BFB85B90025AEC8 /* SymbolPicker */,
+			);
+			productName = HallMates;
+			productReference = DCFA690A2BF50DEC009E8CE4 /* HallMates.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCFA69022BF50DEC009E8CE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					DCFA69092BF50DEC009E8CE4 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = DCFA69052BF50DEC009E8CE4 /* Build configuration list for PBXProject "HallMates" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCFA69012BF50DEC009E8CE4;
+			packageReferences = (
+				DCF178A82BF661AF0025AEC8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				DCF178BA2BFB85B90025AEC8 /* XCRemoteSwiftPackageReference "SymbolPicker" */,
+			);
+			productRefGroup = DCFA690B2BF50DEC009E8CE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCFA69092BF50DEC009E8CE4 /* HallMates */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCFA69082BF50DEC009E8CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFA69152BF50DED009E8CE4 /* Preview Assets.xcassets in Resources */,
+				DCFA69122BF50DED009E8CE4 /* Assets.xcassets in Resources */,
+				DCF178B02BF662210025AEC8 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCFA69062BF50DEC009E8CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF178C02BFB91720025AEC8 /* EventView.swift in Sources */,
+				DCF178C62BFB9A580025AEC8 /* MyProfileView.swift in Sources */,
+				DCFA69202BF50F55009E8CE4 /* MessagesView.swift in Sources */,
+				DCF178BE2BFB91680025AEC8 /* OrganizationView.swift in Sources */,
+				DCFA69262BF50F82009E8CE4 /* LogInView.swift in Sources */,
+				DCF178B22BF662F50025AEC8 /* SignUpViewModel.swift in Sources */,
+				DCFA69102BF50DEC009E8CE4 /* ContentView.swift in Sources */,
+				DCF178C22BFB91F30025AEC8 /* ProfileViewModel.swift in Sources */,
+				DCF178C42BFB96260025AEC8 /* ChatView.swift in Sources */,
+				DCFA69222BF50F5F009E8CE4 /* ProfileView.swift in Sources */,
+				DC2257972BF6532B0067654F /* LogInViewModel.swift in Sources */,
+				DCFA69242BF50F6D009E8CE4 /* SignUpView.swift in Sources */,
+				DCFA69282BF50F8F009E8CE4 /* GradientView.swift in Sources */,
+				DCFA690E2BF50DEC009E8CE4 /* HallMatesApp.swift in Sources */,
+				DCF178B42BF789BA0025AEC8 /* ContentViewModel.swift in Sources */,
+				DC64D0B72BFE462D00D79B85 /* Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DCFA69162BF50DED009E8CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCFA69172BF50DED009E8CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCFA69192BF50DED009E8CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HallMates/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aolokes.HallMates;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCFA691A2BF50DED009E8CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HallMates/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aolokes.HallMates;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCFA69052BF50DEC009E8CE4 /* Build configuration list for PBXProject "HallMates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFA69162BF50DED009E8CE4 /* Debug */,
+				DCFA69172BF50DED009E8CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFA69182BF50DED009E8CE4 /* Build configuration list for PBXNativeTarget "HallMates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFA69192BF50DED009E8CE4 /* Debug */,
+				DCFA691A2BF50DED009E8CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DCF178A82BF661AF0025AEC8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.26.0;
+			};
+		};
+		DCF178BA2BFB85B90025AEC8 /* XCRemoteSwiftPackageReference "SymbolPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/xnth97/SymbolPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DCF178A92BF661AF0025AEC8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCF178A82BF661AF0025AEC8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DCF178AB2BF661AF0025AEC8 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCF178A82BF661AF0025AEC8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		DCF178AD2BF661AF0025AEC8 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCF178A82BF661AF0025AEC8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		DCF178BB2BFB85B90025AEC8 /* SymbolPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCF178BA2BFB85B90025AEC8 /* XCRemoteSwiftPackageReference "SymbolPicker" */;
+			productName = SymbolPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DCFA69022BF50DEC009E8CE4 /* Project object */;
+}
