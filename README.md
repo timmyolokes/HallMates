@@ -1,6 +1,6 @@
-# Tinker
+# HallMates
 
-A Tinker-like app designed to help college students connect based on shared courses and interests.
+A Tinder-like app designed to help college students connect based on shared courses and interests.
 
 ## Features
 
