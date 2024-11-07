@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyA8-D5oMteH3MPyl79xKQw6qT562q37qv8</string>
+	<string></string>
 	<key>GCM_SENDER_ID</key>
-	<string>385252883637</string>
+	<string></string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
